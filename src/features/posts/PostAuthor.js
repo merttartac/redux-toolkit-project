@@ -12,7 +12,7 @@ const PostAuthor = ({ userId }) => {
     return (
         <Wrapper>
             <Content>
-                <span>test
+                <span>
                     by {author ? `${author.firstName} ${author.lastName}` : 'Unknown author'}`
                 </span>
             </Content>
